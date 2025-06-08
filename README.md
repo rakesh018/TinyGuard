@@ -28,12 +28,4 @@ This technique enables us to:
 
 
 ## 📁 Project Structure
-TinyGuard/
-├── base_papers/ # Reference literature
-│ └── base_paper_2.pdf # Paper on energy use in on-device ML for IoT intrusion detection
-├── Report-PPT/ # Final project report and presentation
-├── results/ # Output graphs, logs, and final results
-├── 1-Feature_Selection_XAI.ipynb # Jupyter Notebook: Selecting most impactful features
-├── 2-Training_inference_times_before_Feature_Selection.ipynb # Jupyter Notebook: 
-├── inference_demo.ipynb # Jupyter Notebook: End-to-end inference demo
-└── README.md # This file
+<pre lang="markdown"> <code> ## 📁 Project Structure ``` TinyGuard/ ├── base_papers/ # Reference literature │ └── base_paper_2.pdf # Paper on energy use in on-device ML for IoT intrusion detection ├── Report-PPT/ # Final project report and presentation ├── results/ # Output graphs, logs, and final results └── README.md # This file ``` </code> </pre>
