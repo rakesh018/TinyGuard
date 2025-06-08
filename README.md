@@ -11,8 +11,13 @@
 This project showcases how *security* and *efficiency* can co-exist on the edge.
 
 ---
+## 🔄 Workflow
 
-## 🧠 What is Knowledge Distillation?
+![TinyGuard Flowchart](./Flowchart.png)
+
+---
+
+## What is Knowledge Distillation?
 
 **Knowledge Distillation** is a model compression technique where a small "student" model is trained to mimic the behavior of a large "teacher" model. Instead of learning from raw labels, the student learns from the teacher’s **soft predictions**—capturing richer patterns and decision boundaries.
 
