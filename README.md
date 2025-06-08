@@ -28,4 +28,10 @@ This technique enables us to:
 
 
 ## 📁 Project Structure
-<pre lang="markdown"> <code> ## 📁 Project Structure ``` TinyGuard/ ├── base_papers/ # Reference literature │ └── base_paper_2.pdf # Paper on energy use in on-device ML for IoT intrusion detection ├── Report-PPT/ # Final project report and presentation ├── results/ # Output graphs, logs, and final results └── README.md # This file ``` </code> </pre>
+
+* [TinyGuard](./TinyGuard)
+  * [base_papers](./TinyGuard/base_papers)  
+    * [base_paper_2.pdf](./TinyGuard/base_papers/base_paper_2.pdf) – Paper on energy use in on-device ML for IoT intrusion detection
+  * [Report-PPT](./TinyGuard/Report-PPT) – Final project report and presentation
+  * [results](./TinyGuard/results) – Output graphs, logs, and final results
+  * [README.md](./TinyGuard/README.md) – This file
