@@ -1,2 +1,39 @@
-# TinyGuard
-🛡️ Ultra-light (0.05KB) model for detecting compromised IoT devices, distilled for edge efficiency using Knowledge Distillation.
+# 🔒 TinyGuard
+
+🛡️ **Ultra-light (0.05KB) CNN model for detecting compromised IoT devices**, distilled for edge efficiency using Knowledge Distillation.
+
+---
+
+## 🚀 Overview
+
+**TinyGuard** is a hyper-optimized deep learning model designed to run on ultra-resource-constrained IoT environments. Leveraging **Knowledge Distillation**, we compress a powerful CNN into a **tiny 0.05KB model**—without sacrificing its ability to detect compromised or anomalous device behavior.
+
+This project showcases how *security* and *efficiency* can co-exist on the edge.
+
+---
+
+## 🧠 What is Knowledge Distillation?
+
+**Knowledge Distillation** is a model compression technique where a small "student" model is trained to mimic the behavior of a large "teacher" model. Instead of learning from raw labels, the student learns from the teacher’s **soft predictions**—capturing richer patterns and decision boundaries.
+
+This technique enables us to:
+- Retain much of the performance of large models
+- Deploy models in extremely constrained environments (like IoT, microcontrollers)
+- Improve inference time, energy consumption, and memory footprint
+
+📖 **Read more**: [Distilling the Knowledge in a Neural Network (Hinton et al., 2015)](https://arxiv.org/abs/1503.02531)
+
+---
+
+
+
+## 📁 Project Structure
+TinyGuard/
+├── base_papers/ # Reference literature
+│ └── base_paper_2.pdf # Paper on energy use in on-device ML for IoT intrusion detection
+├── Report-PPT/ # Final project report and presentation
+├── results/ # Output graphs, logs, and final results
+├── 1-Feature_Selection_XAI.ipynb # Jupyter Notebook: Selecting most impactful features
+├── 2-Training_inference_times_before_Feature_Selection.ipynb # Jupyter Notebook: 
+├── inference_demo.ipynb # Jupyter Notebook: End-to-end inference demo
+└── README.md # This file
